@@ -1,11 +1,11 @@
 # SwiftBook1
 关东升老师所著的《从零开始学Swift》代码。
 
-#图书服务网站：http://www.51work6.com
+###图书服务网站：http://www.51work6.com
 
-#视频平台：http://www.zhijieketang.com
+###视频平台：http://www.zhijieketang.com
 
-#图书目录
+###图书目录
 第一部分　Swift语法篇
 第1章　准备起航.. 2
 1.1　本书约定.... 2
