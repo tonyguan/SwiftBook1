@@ -22,14 +22,11 @@ struct Department {
     var name: String = ""
     
     var employees: [Employee] = [Employee]()
-    //let employees = NSMutableArray()
 
-    //func insertWithObject(anObject: AnyObject , index: Int)->() {
     mutating func insertWithObject(anObject: AnyObject , index: Int)->() {
         
         let emp = anObject as! Employee
         employees.insert(emp, atIndex:index)
-        //employees.insertObject(emp, atIndex: index)
     }
 }
 

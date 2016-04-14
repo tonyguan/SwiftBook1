@@ -29,6 +29,6 @@ class Company {
 
 let emp = Employee()
 
-print(emp.dept!.comp!.name)
-print(emp.dept?.comp?.name)
+print(emp.dept!.comp!.name) //显示拆包
+print(emp.dept?.comp?.name) //可选链
 

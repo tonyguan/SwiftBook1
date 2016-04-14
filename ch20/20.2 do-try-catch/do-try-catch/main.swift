@@ -18,6 +18,6 @@ let filePath = "xxx"
  
 do {
     let str = try NSString(contentsOfFile: filePath, encoding: NSUTF8StringEncoding)
-} catch let err as NSError {
-    err.description
+} catch let err as NSObject {
+    print(err.description)
 }

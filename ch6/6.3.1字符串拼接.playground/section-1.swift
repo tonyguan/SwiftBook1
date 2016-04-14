@@ -17,8 +17,6 @@ var 🌍 = "🐶🐺🐱🐭🐹🐰🐸🐯🐨🐻🐷🐽🐮🐗🐵🐒🐴
 
 var flower: Character = "🌻"
 🌍.append(flower)
-🌍.startIndex
-
 
 print("诺亚方舟乘客数：\(🌍.characters.count)")
 

@@ -17,7 +17,7 @@ import Foundation
 //自定义错误类型
 enum DAOError: ErrorType {
     case NoData
-    case Pri关东升KeyNull
+    case PrimaryKeyNull
 }
 
 //日期格式对象
@@ -46,7 +46,7 @@ do {
 do {
     var note: Note = Note(date:nil, content: "Welcome to MyNote.")
     try dao.remove(note)
-} catch DAOError.Pri关东升KeyNull {
+} catch DAOError.PrimaryKeyNull {
     print("主键为空。")
 }
 

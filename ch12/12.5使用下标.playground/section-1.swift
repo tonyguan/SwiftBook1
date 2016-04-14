@@ -45,7 +45,7 @@ for var i = 0; i < ROW_NUM; i++ {
 
 for var i = 0; i < ROW_NUM; i++ {
     for var j = 0; j < COL_NUM; j++ {
-        print("\t \(ary2[i,j])")
+        print("\t \(ary2[i,j])", terminator: "")
     }
     print("\n")
 }

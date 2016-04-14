@@ -28,7 +28,7 @@ class NoteDAO {
         
         guard let date = model.date else {
             //抛出"主键为空"错误
-            throw DAOError.Pri关东升KeyNull
+            throw DAOError.PrimaryKeyNull
         }
         //比较日期主键是否相等
         for (index, note) in listData.enumerate() where note.date == date {
@@ -42,7 +42,7 @@ class NoteDAO {
         
         guard let date = model.date else {
             //抛出"主键为空"错误
-            throw DAOError.Pri关东升KeyNull
+            throw DAOError.PrimaryKeyNull
         }
         //比较日期主键是否相等
         for note in listData where note.date == date {
@@ -72,7 +72,7 @@ class NoteDAO {
         
         guard let date = model.date else {
             //抛出"主键为空"错误
-            throw DAOError.Pri关东升KeyNull
+            throw DAOError.PrimaryKeyNull
         }
         //比较日期主键是否相等
         for note in listData where note.date == date {

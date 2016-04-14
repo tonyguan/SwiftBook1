@@ -35,4 +35,4 @@ let f1: (Int, Int) -> Int = calculate("+")
 print("10 + 5 = \(f1(10, 5))")
 
 let f2: (Int, Int) -> Int = calculate("-")
-print("10 + 5 = \(f2(10, 5))")
+print("10 - 5 = \(f2(10, 5))")

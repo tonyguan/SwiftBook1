@@ -36,6 +36,7 @@ class Student : Person {
         self.name = "Tom"
         self.age = 28
         self.toString()
+        
     }
     convenience override init (name : String, age : Int) {
         self.init(name : name, age : age, school : "清华大学")

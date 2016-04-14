@@ -55,21 +55,21 @@ let p5: Worker = Worker(name: "Tony", age: 28, factory: "钢厂")
 //向上转型
 let p41: Person = p4 as Person
 
-//向上转型 使用as!
-///1.将非可选类型为非可选类型
+//向下转型 使用as!
+///1.将非可选类型转换为非可选类型
 let p11 = p1 as! Student
 //let p111 = p2 as! Student //异常
-///2.将非可选类型为可选类型
+///2.将可选类型为非可选类型
 let p6: Person? = Student(name: "Tom", age: 20, school: "清华大学")
 let p12 = p6 as! Student
 ///3.将可选类型为可选类型
 let p13 = p6 as! Student?
 
-//向上转型 使用as?
-///1.将非可选类型为非可选类型
+//向下转型 使用as?
+///1.将非可选类型为可选类型
 let p21 = p1 as? Student
 let p211 = p2 as? Student //nil
-///2.将非可选类型为可选类型
+///2.将可选类型为可选类型
 let p7: Person? = Student(name: "Tom", age: 20, school: "清华大学")
 let p22 = p7 as? Student
 

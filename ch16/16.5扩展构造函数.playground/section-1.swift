@@ -7,7 +7,7 @@
 //  QQ交流群：162030268
 //
 
-//16.5.1 值类型扩展构造器/////////////////////
+//16.5.1 值类型扩展构造函数/////////////////////
 struct Rectangle {
     
     var width: Double
@@ -22,7 +22,7 @@ struct Rectangle {
     }
 }
 
-//值类型扩展构造器
+//值类型扩展构造函数
 extension Rectangle {
     init(length: Double) {
         self.init(width: length, height: length)
@@ -35,10 +35,10 @@ print("长方形:\(rect.width) x \(rect.height)")
 var square = Rectangle(length: 500.0)
 print("正方形:\(square.width) x \(square.height)")
 
-//16.5.1 值类型扩展构造器/////////////////////
+//16.5.1 值类型扩展构造函数/////////////////////
 
 
-//16.5.2 引用类型扩展构造器 /////////////////////
+//16.5.2 引用类型扩展构造函数 /////////////////////
 class Person {
     var name: String
     var age: Int
@@ -51,7 +51,7 @@ class Person {
     }
 }
 
-//引用类型扩展构造器
+//引用类型扩展构造函数
 extension Person {
     convenience init (name: String) {
         self.init(name: name, age: 8)
@@ -63,4 +63,4 @@ print("Person1: \(p1.description())")
 let p2 = Person(name: "Tony", age: 28)
 print("Person2: \(p2.description())")
 
-//16.5.2 引用类型扩展构造器 /////////////////////
+//16.5.2 引用类型扩展构造函数 /////////////////////

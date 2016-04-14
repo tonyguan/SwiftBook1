@@ -7,6 +7,7 @@
 //  QQ交流群：162030268
 //
 
+// 嵌套函数实现
 func makeArray() -> (String)->[String] {
     
     var ary:[String] = [String]()
@@ -15,9 +16,21 @@ func makeArray() -> (String)->[String] {
         ary.append(element)
         return ary
     }
-    
+
     return addElement
 }
+
+// 闭包实现
+//func makeArray() -> (String)->[String] {
+//    
+//    var ary:[String] = [String]()
+//    
+//    return  { (element:String) -> [String] in
+//        ary.append(element)
+//        return ary
+//    }
+//}
+
 
 let f1 = makeArray()
 print("---f1---")

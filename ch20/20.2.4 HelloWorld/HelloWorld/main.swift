@@ -17,7 +17,7 @@ import Foundation
 //自定义错误类型
 enum DAOError: ErrorType {
     case NoData
-    case Pri关东升KeyNull
+    case PrimaryKeyNull
 }
 
 //保存数据列表
@@ -29,7 +29,7 @@ func remove(model: Note) throws {
     
     guard let date = model.date else {
         //抛出"主键为空"错误
-        throw DAOError.Pri关东升KeyNull
+        throw DAOError.PrimaryKeyNull
     }
     //比较日期主键是否相等
     for (index, note) in listData.enumerate() where note.date == date {
