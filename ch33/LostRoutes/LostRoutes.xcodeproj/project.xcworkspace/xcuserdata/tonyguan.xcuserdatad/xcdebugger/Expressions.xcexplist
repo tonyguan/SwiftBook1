@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "GamePlayScene.(touchedResumeMenuItem(GamePlayScene) -&gt; () -&gt; ()).(closure #1):GamePlayScene.swift">
+      </ContextState>
+      <ContextState
+         contextName = "Fighter.position.setter:Fighter.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
