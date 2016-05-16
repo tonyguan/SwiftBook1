@@ -14,7 +14,8 @@
 
 import Foundation
 
-import sqlite3
+//import sqlite3            //为设备发布编译运行准备
+import sqlite3simulator     //为模拟器发布编译运行准备
 
 //自定义数据访问错误类型
 enum DAOError: ErrorType {
