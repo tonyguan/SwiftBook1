@@ -52,7 +52,7 @@ public class NoteDAO {
             //数据库打开失败。
             throw DAOError.DBOpenFailure
         } else {
-            let sql = "CREATE TABLE IF NOT EXISTS Note (cdate TEXT PRI关东升 KEY, content TEXT)"
+            let sql = "CREATE TABLE IF NOT EXISTS Note (cdate TEXT PRIMARY KEY, content TEXT)"
             let cSql = sql.cStringUsingEncoding(NSUTF8StringEncoding)
             
             if (sqlite3_exec(db,cSql!, nil, nil, nil) != SQLITE_OK) {
