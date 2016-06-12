@@ -11,7 +11,7 @@ extension String {
     
     subscript(index: Int) -> String {
         
-        if  index > self.characters.count {
+        if  index >= self.characters.count {
             return ""
         }
         var c: String = ""
